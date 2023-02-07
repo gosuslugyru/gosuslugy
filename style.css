@@ -1,0 +1,100 @@
+/* Center all elements on the page */
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Align the title and language switch elements to the left side */
+.left {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Style for the language switch element */
+.language-switch {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+
+}
+
+.language-switch span {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.calendar {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    margin-right: 10px;
+
+}
+
+.calendar span {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 5px;
+    color: gray;
+}
+
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid lightgray;
+    width: 87%;
+    margin: 10px 0;
+}
+
+
+/* Style for the middle image */
+img[alt="Middle Image"] {
+    width: 85%;
+    border-radius: 20px;
+
+}
+
+img[alt="Title"] {
+    width: 37%;
+    height: auto;
+}
+
+img[alt="English"] {
+    width: 42%;
+    height: auto;
+}
+
+img[alt="Callendar"] {
+    width: 13%;
+    height: auto;
+}
+p:first-of-type {
+    font-weight: bold;
+    margin-top: 18px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #0B1F33;
+    margin: 0 8px 8px 0;
+}
